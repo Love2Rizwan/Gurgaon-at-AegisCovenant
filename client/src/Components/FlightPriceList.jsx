@@ -1,33 +1,4 @@
 
-// import React from 'react';
-
-// const FlightPriceList = ({ flightPrices }) => {
-//   if (!flightPrices || Object.keys(flightPrices).length === 0) {
-//     // Handle the case when flightPrices is null or empty
-//     return null;
-//   }
-
-//   const { indigo, airAsia, vistara } = flightPrices.prices;
-
-//   return (
-//     <div>
-//       <h2>Flight Prices:</h2>
-//       <ul>
-//         <li>
-//           Source: {flightPrices.source}, Destination: {flightPrices.destination}
-//         </li>
-//         <li>Indigo: {indigo}</li>
-//         <li>AirAsia: {airAsia}</li>
-//         <li>Vistara: {vistara}</li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default FlightPriceList;
-
-
-
 import React from 'react';
 
 const FlightPriceList = ({ flightPrices }) => {
