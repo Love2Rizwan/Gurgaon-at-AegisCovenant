@@ -15,6 +15,12 @@ connectDB();
 app.use(express.json())
 app.use(cors())
 
+// route
+app.get("/", (req, res) => {
+  res.status(201).json({message: "Connected to Backend!"});
+});
+
+
 // Route
 app.use("/api", route)
 
